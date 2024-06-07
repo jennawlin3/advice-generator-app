@@ -35,6 +35,7 @@ body {
     margin-bottom: 30px;
     border-radius: 20px;
     position: relative;
+    min-height: 300px;
 }
 
 .num-advice {
@@ -57,7 +58,7 @@ body {
     margin: 25px 0 10px;
 }
 
-#button {
+#generate-button {
     background-color: var(--neon-green);
     position: absolute;
     bottom: -30px;
@@ -65,7 +66,7 @@ body {
     border-radius: 50%;
 }
 
-#button:hover {
+#generate-button:hover {
     box-shadow: 0 0 30px 5px rgba(82, 255, 168, .6);
 }
 
